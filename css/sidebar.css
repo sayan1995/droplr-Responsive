@@ -7,7 +7,12 @@
     float: left;
     margin-left: 15px;
 }
-
+.navbar-toggle{
+background-color:black!important;
+}
+.navbar-default .navbar-toggle {
+    border-color: black!important;
+}
 .navbar .navbar-toggle.toggle-right {
     float: right;
     margin-right: 15px;

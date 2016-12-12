@@ -27,6 +27,10 @@
 		height: 10%;
 		width: 10%;
 	}
+	.btn-file {
+    	  margin-left: 15%;
+  	  margin-top: 25px;
+	   }
 	#search-1 {
 		display: none;
 	}
@@ -61,6 +65,10 @@
 	.image-name {
 		margin-left: 24px!important;
 	}
+	.btn-file {
+    	        margin-left: 25%;
+  	  	margin-top: 25px;
+	 }
 }
 
 @media only screen and (min-device-width: 400px) and (max-device-width: 760px) {
@@ -135,4 +143,8 @@
 		float: left;
 		border-radius: 5px;
 	}
+}
+@media (min-width: 768px)
+.navbar-right {
+    margin-top: -50px!important;
 }

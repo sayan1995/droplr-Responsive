@@ -25,6 +25,7 @@ droplr.prototype.load =function () {
 	data = JSON.parse(this.data);
 	
 	for (i = 0; i < this.len-1; i++) {
+		try {
 		p = $('<div/>').attr('class', 'col-md-15');
 		$(p).addClass('col-lg-15');
 		$(p).addClass('col-sm-15');
@@ -32,6 +33,9 @@ droplr.prototype.load =function () {
 		console.log(p);
 		this.generate(data[i].url, data[i].name, data[i].timestamp, p, i + 1);
 		$('.display-area').append(p);
+		}
+		catch(err)
+		{}
 	}
 }
 

@@ -4,7 +4,10 @@ if it's not present, don't show loader */
 .no-js #loader {
 	display: none;
 }
-
+.gb{
+    margin-left: 15px;
+    margin-top: 50px;
+}
 .js #loader {
 	display: block;
 	position: absolute;
@@ -170,10 +173,14 @@ a {
 	width: 20px;
 	border: 3px solid #696969;
 	text-align: center;
-	margin-left: 150px;
+	margin-left: 130px;
 	margin-top: 3px;
 }
-
+.progress{
+	background-color:red;
+	height:3px;
+	width:60px;
+}
 .page-header {
 	margin-top: 70px;
 }
@@ -228,11 +235,11 @@ a {
 
 .image-time {
 	color: #A9A9A9;
-	margin-left: 8px;
+	margin-left: 5px;
 }
 
 .image-name {
-	margin-left: 8px;
+	margin-left: 5px;
 }
 
 .image-url {
